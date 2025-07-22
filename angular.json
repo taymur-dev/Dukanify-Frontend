@@ -8,6 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+          
         }
       },
       "root": "",
@@ -93,7 +94,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/font-awesome/css/font-awesome.min.css" , "src/styles.scss"
             ],
             "scripts": []
           }
