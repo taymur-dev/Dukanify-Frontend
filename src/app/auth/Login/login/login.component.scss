@@ -2,7 +2,7 @@
   max-width: 400px;
   margin: 80px auto;
   padding: 2rem;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   font-family: 'Segoe UI', sans-serif;
@@ -13,6 +13,12 @@
     gap: 1.5rem;
   }
 
+  form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
   .form-group {
     display: flex;
     flex-direction: column;
@@ -20,7 +26,7 @@
     label {
       margin-bottom: 0.5rem;
       font-weight: 600;
-      color: #333;
+      color: #000000;
     }
 
     input {
@@ -31,7 +37,7 @@
       transition: border-color 0.3s ease;
 
       &:focus {
-        border-color: #007bff;
+        border-color: #e4002b;
         outline: none;
       }
     }
@@ -40,7 +46,7 @@
       margin-top: 0.25rem;
 
       small {
-        color: #e74c3c;
+        color: #e4002b;
         font-size: 0.875rem;
       }
     }
@@ -63,9 +69,10 @@
         cursor: pointer;
         font-size: 1.2rem;
         color: #666;
+        transition: color 0.2s ease;
 
         &:hover {
-          color: #000;
+          color: #e4002b;
         }
       }
     }
@@ -77,7 +84,7 @@
 
     a {
       font-size: 0.875rem;
-      color: #007bff;
+      color: green;
       text-decoration: none;
 
       &:hover {
@@ -88,9 +95,9 @@
 
   button[type="submit"] {
     padding: 0.75rem;
-    background-color: #007bff;
+    background-color: #e4002b;
     border: none;
-    color: #fff;
+    color: #ffffff;
     font-weight: 600;
     font-size: 1rem;
     border-radius: 8px;
@@ -98,18 +105,18 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #0056b3;
+      background-color: darken(#e4002b, 10%);
     }
   }
 
   .signup-link {
     text-align: center;
     font-size: 0.9rem;
-    color: #444;
+    color: #000000;
     margin-top: 1rem;
 
     a {
-      color: #007bff;
+      color: #e4002b;
       text-decoration: none;
       font-weight: 600;
 
